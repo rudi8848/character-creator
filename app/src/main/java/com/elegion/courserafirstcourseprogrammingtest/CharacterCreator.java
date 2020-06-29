@@ -218,7 +218,7 @@ public class CharacterCreator extends Observable  implements Serializable{
         *   если количество доступных очков равно 0
         *       то мы не можем увеличить атрибут, ничего не происходит        *
         * */
-
+//logic
         if (mAvailablePoints - updateTo >= 0) {
 
             String attrName = Attribute.values()[position].name();
